@@ -1,23 +1,17 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.5.4)  24 AUG 2015 14:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.19)  1 NOV 2015 01:54
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **pv-resume.tex
 (./pv-resume.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
-ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
-9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
-skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
-orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
-, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
-rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
 (./res.cls
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
-(/usr/share/texmf-texlive/tex/latex/base/article.cls
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -69,24 +63,26 @@ Overfull \hbox (90.26999pt too wide) in paragraph at lines 34--39
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] ) 
 Here is how much of TeX's memory you used:
- 295 strings out of 493848
- 3088 string characters out of 1152824
- 54021 words of memory out of 3000000
- 3653 multiletter control sequences out of 15000+50000
- 5200 words of font info for 19 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 29i,8n,21p,299b,167s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on pv-resume.pdf (1 page, 92181 bytes).
+ 295 strings out of 494985
+ 3108 string characters out of 6180356
+ 53516 words of memory out of 5000000
+ 3594 multiletter control sequences out of 15000+600000
+ 5200 words of font info for 19 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 29i,8n,21p,299b,167s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti10.pfb>
+Output written on pv-resume.pdf (2 pages, 91246 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
