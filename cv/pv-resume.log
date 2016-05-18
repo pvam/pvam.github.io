@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.19)  1 NOV 2015 01:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.5.13)  18 MAY 2016 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**pv-resume.tex
+**./pv-resume.tex
 (./pv-resume.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 4 languages loaded.
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (./res.cls
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(c:/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -63,23 +63,23 @@ Overfull \hbox (90.26999pt too wide) in paragraph at lines 34--39
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] ) 
+{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] ) 
 Here is how much of TeX's memory you used:
- 295 strings out of 494985
- 3108 string characters out of 6180356
- 53516 words of memory out of 5000000
- 3594 multiletter control sequences out of 15000+600000
+ 295 strings out of 493089
+ 3099 string characters out of 6138425
+ 58426 words of memory out of 5000000
+ 3862 multiletter control sequences out of 15000+600000
  5200 words of font info for 19 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 29i,8n,21p,299b,167s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti10.pfb>
-Output written on pv-resume.pdf (2 pages, 91246 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 29i,8n,21p,346b,167s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb>
+Output written on pv-resume.pdf (2 pages, 90636 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
