@@ -1,0 +1,345 @@
+Connected to PgSQL!
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned23798.229
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 0done
+Executed command ,script returned3
+Currently not supported
+Executed command ,script returned18519.0415
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 1done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned14553.093
+Executed command ,script returned23798.229
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 2done
+Executed command ,script returned3
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned23798.229
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 3done
+Executed command ,script returned3
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned0.5875
+Executed command ,script returned97.4215
+Executed command ,script returned22.039
+Executed command ,script returned18078.375
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned32.2775
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned23798.229
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 4done
+Executed command ,script returned3
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned23798.229
+Executed command ,script returned23799.8875
+Testing query 5done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned97.4215
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned23798.229
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 6done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned97.4215
+Executed command ,script returned97.4215
+Executed command ,script returned0.0525
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned32.2775
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned23798.229
+Executed command ,script returned14553.093
+Executed command ,script returned23799.8875
+Testing query 7done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned97.4215
+Executed command ,script returned22.039
+Executed command ,script returned18078.375
+Executed command ,script returned13714.2895
+Executed command ,script returned23798.229
+Executed command ,script returned23799.8875
+Testing query 8done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned13714.2895
+Executed command ,script returned23798.229
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 9done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned32.2775
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned23798.229
+Executed command ,script returned97.4215
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned32.2775
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned14553.093
+Executed command ,script returned23798.229
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 10done
+Executed command ,script returned3
+Executed command ,script returned0.5875
+Executed command ,script returned97.4215
+Executed command ,script returned14553.093
+Executed command ,script returned18519.0415
+Executed command ,script returned23798.229
+Executed command ,script returned14553.093
+Executed command ,script returned23799.8875
+Testing query 11done
+Executed command ,script returned3
+Executed command ,script returned93.686
+Executed command ,script returned0.5875
+Executed command ,script returned18519.0415
+Executed command ,script returned23798.229
+Executed command ,script returned23798.229
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 12done
+Executed command ,script returned3
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned23798.229
+Executed command ,script returned23799.8875
+Testing query 13done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned14553.093
+Executed command ,script returned97.4215
+Executed command ,script returned93.686
+Executed command ,script returned18519.0415
+Executed command ,script returned13714.2895
+Executed command ,script returned23798.229
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 14done
+Executed command ,script returned3
+Executed command ,script returned0.5875
+Executed command ,script returned23798.229
+Executed command ,script returned0.5875
+Executed command ,script returned18519.0415
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned23798.229
+Executed command ,script returned23799.8875
+Testing query 15done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned0.5875
+Executed command ,script returned0.5875
+Executed command ,script returned23798.229
+Executed command ,script returned22.039
+Executed command ,script returned18519.0415
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned14553.093
+Executed command ,script returned23798.229
+Executed command ,script returned23799.8875
+Testing query 16done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned23798.229
+Executed command ,script returned23799.8875
+Testing query 17done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned97.4215
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned13714.2895
+Executed command ,script returned23798.229
+Executed command ,script returned97.4215
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned14553.093
+Executed command ,script returned18519.0415
+Executed command ,script returned22.039
+Executed command ,script returned18078.375
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 18done
+Executed command ,script returned3
+Executed command ,script returned97.4215
+Executed command ,script returned97.4215
+Executed command ,script returned26.258
+Executed command ,script returned429.861
+Executed command ,script returned32.2775
+Executed command ,script returned377.268
+Executed command ,script returned15389.7745
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned0.5875
+Executed command ,script returned26485.4135
+Executed command ,script returned23798.229
+Executed command ,script returned23443.369
+Executed command ,script returned23799.8875
+Testing query 19done
+
+-------------------------------
+Results Actual vs Optimizers
+-------------------------------
+Total queries: 22
+Total trained queries: 21
+Total tested queries: 19/21
+Mean relative error: 8.865565300466725
+Minimum relative error: 0.11776415659250684
+Maximum relative error: 45.395869207603724
+
+-------------------------------
+Results Actual vs Current model
+-------------------------------
+Total queries: 22
+Total trained queries: 21
+Total tested queries: 19/21
+Mean relative error: 0.5852972919628395
+Minimum relative error: 0.01719461253271911
+Maximum relative error: 2.529811400395519
+Optimzer model : Individual queries performance
+Query 0: 13.223052560317957
+Query 2: 13.588765684822429
+Query 3: 2.892770518929021
+Query 4: 6.557351653926182
+Query 5: 11.24808645530304
+Query 6: 0.6475902015801013
+Query 7: 0.41739214175927347
+Query 8: 0.8450456104389389
+Query 9: 12.235637382306484
+Query 10: 0.39004314805171675
+Query 11: 19.993878541640306
+Query 12: 1.638262921465664
+Query 13: 8.536184333260753
+Query 14: 5.199367359887331
+Query 15: 0.5030482166502759
+Query 16: 45.395869207603724
+Query 17: 0.11776415659250684
+Query 18: 14.281874430423233
+Query 19: 10.733756183908866
+Current model : Individual queries performance
+Query 0: 0.19431775012371344
+Query 2: 0.029756445873149438
+Query 3: 0.15507804577432477
+Query 4: 0.03444752530165136
+Query 5: 0.9525036876241856
+Query 6: 0.9516908099548157
+Query 7: 0.9216924289319323
+Query 8: 0.9586218882052436
+Query 9: 0.2027211492489503
+Query 10: 0.1320150543493461
+Query 11: 0.5899469649973526
+Query 12: 0.6431687077388123
+Query 13: 0.8933987216634239
+Query 14: 2.529811400395519
+Query 15: 0.9446126682280631
+Query 16: 0.08439292270854783
+Query 17: 0.6235336804812109
+Query 18: 0.26174408316099146
+Query 19: 0.01719461253271911
+420149.57 29540.042
+337177.77 23112.152
+109652.14 28168.149
+186281.04 24648.984
+149297.07 12189.42
+173617.35 492657.556
+177071.02 303928.307
+89126.76 575180.608
+261911.65 19788.367
+12823.95 21024.356
+314256.99 14968.982
+175966.52 66697.871
+119869.16 12569.929
+41799.47 6742.538
+645858.49 429699.116
+1205993.81 25993.56
+70664.12 63219.168
+288257.26 18862.69
+284147.89 24216.277

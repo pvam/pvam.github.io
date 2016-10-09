@@ -1,0 +1,22 @@
+Operator 			Mean
+NestedLoopSeqScan,0.192170332325
+Aggregate-Plain,1.85642029084
+Aggregate-Sorted,2.84630394012
+Sort-top-Nheapsort,1.95701448425
+NestedLoopIndexScan,7.74531977363
+IndexOnlyScan,9735.94635051
+Limit,2.53234316908
+Aggregate-Hashed,1.27857907965
+SeqScan,1039.1175069
+NestedLoopIndexOnlyScan,0.0640831227788
+BitmapIndexScan,47.6944464793
+NestedLoopMaterialize,25566.1380318
+NestedLoopBitmapHeapScan,1.00367799536
+HashJoin,69.3540039439
+MergeJoin,1.04355858191
+Hash,656.979217484
+Sort-externalmerge,0.39814115814
+BitmapHeapScan,63.6830812336
+IndexScan,4.3271447687
+Materialize,3962.69152743
+Sort-quicksort,11.5565068789

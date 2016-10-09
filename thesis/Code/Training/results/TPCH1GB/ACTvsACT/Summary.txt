@@ -1,0 +1,22 @@
+HashJoin - MRE 68.
+Materalize - MRE 1095. 
+Hash - MRE ~ 7
+Mergejoin ~ 3 
+IndexScan ~ 2 Good. needs improvement
+SeqScan ~2 Needs to be consistent. Needs improvment
+Sort ~ 1. Good Needs improvement
+BitMapHeapScan ~ 30. 
+Limit ~1.
+BitmapIndexScan ~11. 
+IndexOnlyScan ~8.
+Aggregate-GroupBy ~1
+NestedLoopIndexOnlyScan- > Mean RE = 0.0567868828272
+NestedLoopBitmapHeapScan- > Mean RE = 23.711299653
+NestedLoopSeqScan- > Mean RE = 0.0394906416335
+NestedLoopIndexScan- > Mean RE = 65.356803195
+
+
+
+Bad So far
+----------
+HashJoin, Materalize, BitmapHeapScan, NestedLoop. 

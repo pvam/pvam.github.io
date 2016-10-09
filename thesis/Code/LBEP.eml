@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/LBEP"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<excludeFolder url="file://$MODULE_DIR$/src/Operators"/>
+	</contentEntry>
+	<levels>
+		<level name="snakeyaml-1.16" value="project"/>
+		<level name="postgresql-9.4-1200.jdbc4" value="project"/>
+		<level name="cplex" value="project"/>
+	</levels>
+</component>

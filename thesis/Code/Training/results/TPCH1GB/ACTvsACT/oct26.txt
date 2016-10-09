@@ -1,0 +1,37 @@
+HashJoin
+Mean RE = 0.0968050470329
+Median RE = 0.0176956470124
+Sort-top-Nheapsort
+Mean RE = 0.415165065994
+Median RE = 0.287707488128
+Sortexternalmerge
+Mean RE = 2.17026849532
+Median RE = 0.552106463957
+Hash
+Mean RE = 68.2012542236
+Median RE = 4.25728999711
+MergeJoin
+/home/dsl/Vamshi/LBEP/Training/SVMRegression5fold.py:26: RuntimeWarning: divide by zero encountered in divide
+  error = np.average(np.divide( np.abs(ground_truth - predictions) , ground_truth))
+Mean RE = inf
+/home/dsl/Vamshi/LBEP/Training/SVMRegression5fold.py:30: RuntimeWarning: divide by zero encountered in divide
+  error = np.median(np.divide( np.abs(ground_truth - predictions) , ground_truth))
+Median RE = inf
+Aggregate-null
+Mean RE = 0.0165289336128
+Median RE = 0.0134663621794
+IndexScan
+Mean RE = 47.9285299212
+Median RE = 32.3185098735
+SeqScan
+Mean RE = 0.199267426327
+Median RE = 0.137575198514
+IndexNestedLoop
+Mean RE = 3.41187329459
+Median RE = 1.25162622625
+Sortquicksort
+Mean RE = 0.657511304766
+Median RE = 0.591095142048
+Limit
+Mean RE = 0.415161832035
+Median RE = 0.287705318547

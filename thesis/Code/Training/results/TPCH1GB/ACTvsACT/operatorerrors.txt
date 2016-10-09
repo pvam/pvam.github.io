@@ -1,0 +1,55 @@
+HashJoin- > Mean RE = 68.5708534781, Median RE = 1.75945765935
+
+
+Sort-top-Nheapsort- > Mean RE = 14.4955715138, Median RE = 0.454409942826
+
+-e
+Materialize- > Mean RE = 11367.3343888, Median RE = 10679.8589158
+
+
+Hash- > Mean RE = 4574.73202272, Median RE = 5.2356659326
+
+
+MergeJoin- > Mean RE = 4.67585764261, Median RE = 3.04696844079
+
+
+Sort-externalmerge- > Mean RE = 0.494868611312, Median RE = 0.358854189058
+
+
+Aggregate-null- > Mean RE = 27.8837393209, Median RE = 0.691254556588
+
+
+IndexScan- > Mean RE = 48.4808212634, Median RE = 32.4691226962
+
+
+SeqScan- > Mean RE = 2854.64435756, Median RE = 1.53447973055
+
+
+NestedLoopIndexScan- > Mean RE = 65.356803195, Median RE = 1.20573320153
+
+
+NestedLoopSeqScan- > Mean RE = 0.0394906416335, Median RE = 0.0394906416335
+
+
+NestedLoopBitmapHeapScan- > Mean RE = 23.711299653, Median RE = 24.9498956332
+
+
+BitmapHeapScan- > Mean RE = 168.601692639, Median RE = 178.741975357
+
+
+NestedLoopMaterialize- > Mean RE = 54169.2876323, Median RE = 61524.1230045
+
+
+Limit- > Mean RE = 9.80147232529, Median RE = 0.622194241468
+
+
+BitmapIndexScan- > Mean RE = 70.8664218523, Median RE = 59.4567356427
+
+
+IndexOnlyScan- > Mean RE = 7484.29649191, Median RE = 8005.53048906
+
+
+Sort-quicksort- > Mean RE = 39.4147376557, Median RE = 66.6088080347
+
+
+NestedLoopIndexOnlyScan- > Mean RE = 0.0567868828272, Median RE = 0.0567868828272

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="postgresql-9.4-1200.jdbc4">
+    <archive path="/home/dsl/Vamshi/LBEP/jars/postgresql-9.4-1200.jdbc4.jar" />
+  </library>
+  <library name="cplex">
+    <archive path="/home/dsl/Vamshi/LBEP/jars/cplex.jar" />
+  </library>
+  <library name="snakeyaml-1.16">
+    <archive path="/home/dsl/Vamshi/LBEP/jars/snakeyaml-1.16.jar" />
+  </library>
+</eclipse-userlibraries>
+

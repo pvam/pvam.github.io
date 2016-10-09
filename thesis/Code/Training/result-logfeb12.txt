@@ -1,0 +1,1005 @@
+/usr/lib/jvm/java-8-oracle/bin/java -Didea.launcher.port=7533 -Didea.launcher.bin.path=/opt/idea/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfxswt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/deploy.jar:/usr/lib/jvm/java-8-oracle/jre/lib/management-agent.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/plugin.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/javaws.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/home/vamshi/LBEP/out/production/LBEP:/home/vamshi/LBEP/jars/snakeyaml-1.16.jar:/home/vamshi/LBEP/jars/postgresql-9.4-1200.jdbc4.jar:/home/vamshi/LBEP/jars/jython-standalone-2.7.0.jar:/opt/idea/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain Common.Test
+Connected to PgSQL!
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 5855843.0 25.0 145372.0 0.0 196560.19 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 5489.8565
+ Exit value of child process : 0
+Parameters Aggregate-Hashed 1.0 4.0 2.0 25.0 430915.39 430915.55 0.0 5855843.0 25.0 0.0 0.0  Returned cost 5489.8565
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 1.0 25.0 2.0 25.0 430915.58 430915.6 0.0 4.0 25.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 25.0 430915.58 430915.59 0.0 1.0 25.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 0done
+Executed command ,script returned :  Exit value of child process : 1
+Currently not supported, Number of children are 3
+Executed command ,script returned : 9082.89
+ Exit value of child process : 0
+Parameters MergeJoin 1.0 459.0 270.0 162.0 10692.45 27863.08 0.0 0.0 0.0 0.0  Returned cost 9082.89
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 100.0 270.0 4.0 52.0 27863.09 27863.09 0.0 459.0 270.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 100.0 270.0 27863.09 27863.09 0.0 100.0 270.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 1done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 718524.0 20.0 781476.0 0.0 46375.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 30189.0 4.0 119811.0 0.0 5583.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 30189.0 1.0 4096.0 1.0 1062.0 4.0 5583.0 5583.0 0.0 30189.0 4.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 143418.0 12.0 5961.44 61935.52 0.0 718524.0 20.0 30189.0 4.0  Returned cost 4097.7855
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 143418.0 0.0 20.0 4.0 0.43 1.56 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 30458.0 28.0 5961.87 302210.07 0.0 143418.0 12.0 0.0 20.0  Returned cost 4411.043
+
+Executed command ,script returned : 5494.6265
+ Exit value of child process : 0
+Parameters Sort-quicksort 1.0 30458.0 28.0 3.0 3386.0 339057.88 339856.45 0.0 30458.0 28.0 0.0 0.0  Returned cost 5494.6265
+
+Executed command ,script returned : 10110.525
+ Exit value of child process : 0
+Parameters Aggregate-Sorted 1.0 11470.0 3.0 28.0 339057.88 348640.69 0.0 30458.0 28.0 0.0 0.0  Returned cost 10110.525
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 10.0 28.0 2.0 25.0 355543.39 356341.96 0.0 11470.0 28.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 10.0 28.0 355543.39 355543.42 0.0 10.0 28.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 2done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 22.0795
+ Exit value of child process : 0
+Parameters BitmapIndexScan 1.0 55266.0 0.0 0.0 1174.66 0.0 0.0 0.0 0.0 0.0  Returned cost 22.0795
+
+Executed command ,script returned : 137.627
+ Exit value of child process : 0
+Parameters BitmapHeapScan 1.0 55266.0 24021.0 0.0 20.0 0.0 1188.61 29650.96 55266.0 0.0 0.0 0.0  Returned cost 137.627
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 55266.0 1.0 8.0 1.0 0.43 5.22 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 50688.0 16.0 1189.05 114870.65 0.0 55266.0 20.0 1.0 8.0  Returned cost 4411.043
+
+Executed command ,script returned : 5489.8565
+ Exit value of child process : 0
+Parameters Aggregate-Hashed 1.0 5.0 1.0 16.0 114939.37 114939.38 0.0 50688.0 16.0 0.0 0.0  Returned cost 5489.8565
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 1.0 16.0 1.0 25.0 114939.39 114939.4 0.0 5.0 16.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 16.0 114939.39 114939.4 0.0 1.0 16.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 3done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 1.0 25.0 116.0 0.14 12.51 0.0 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 1.0 4.0 4.0 0.0 1.06 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 10.146
+ Exit value of child process : 0
+Parameters Materialize 25.0 1.0 4.0 0.0 1.07 0.0 1.0 4.0 0.0 0.0  Returned cost 10.146
+
+Executed command ,script returned : 9519.8455
+ Exit value of child process : 0
+Parameters NestedLoopMaterialize 1.0 5.0 108.0 20.0 0.14 13.95 25.0 116.0 1.0 4.0  Returned cost 9519.8455
+
+Executed command ,script returned : 22.0795
+ Exit value of child process : 0
+Parameters BitmapIndexScan 5.0 6037.0 0.0 0.0 90.38 0.0 0.0 0.0 0.0 0.0  Returned cost 22.0795
+
+Executed command ,script returned : 137.627
+ Exit value of child process : 0
+Parameters BitmapHeapScan 5.0 6037.0 15015.0 0.0 12.0 0.0 91.88 673.28 6037.0 0.0 0.0 0.0  Returned cost 137.627
+
+Executed command ,script returned : 1.984
+ Exit value of child process : 0
+Parameters NestedLoopBitmapHeapScan 1.0 30183.0 120.0 92.02 747.23 0.0 5.0 108.0 6037.0 12.0  Returned cost 1.984
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 30183.0 2.0 12.0 8.0 0.43 1.7 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 45976.0 120.0 92.45 11120.79 0.0 30183.0 120.0 2.0 12.0  Returned cost 4411.043
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 45976.0 4.0 28.0 0.0 0.43 3.13 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 183561.0 136.0 92.88 40594.8 0.0 45976.0 120.0 4.0 28.0  Returned cost 4411.043
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 10000.0 12.0 0.0 330.0 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 10000.0 1.0 1024.0 1.0 469.0 12.0 330.0 330.0 0.0 10000.0 12.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 7282.0 116.0 572.88 42165.2 0.0 183561.0 136.0 10000.0 12.0  Returned cost 4097.7855
+
+Executed command ,script returned : 5489.8565
+ Exit value of child process : 0
+Parameters Aggregate-Hashed 1.0 5.0 1.0 116.0 42179.5 42179.81 0.0 7282.0 116.0 0.0 0.0  Returned cost 5489.8565
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 1.0 116.0 1.0 25.0 42179.94 42180.0 0.0 5.0 116.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 116.0 42179.94 42179.94 0.0 1.0 116.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 4done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 22.0795
+ Exit value of child process : 0
+Parameters BitmapIndexScan 1.0 119328.0 0.0 0.0 30725.83 0.0 0.0 0.0 0.0 0.0  Returned cost 22.0795
+
+Executed command ,script returned : 137.627
+ Exit value of child process : 0
+Parameters BitmapHeapScan 1.0 119328.0 41571.0 26751.0 12.0 1270712.0 30756.67 159426.17 119328.0 0.0 0.0 0.0  Returned cost 137.627
+
+Executed command ,script returned : 825.1655
+ Exit value of child process : 0
+Parameters Aggregate-Plain 1.0 1.0 12.0 160043.02 160043.03 0.0 119328.0 12.0 0.0 0.0  Returned cost 825.1655
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 12.0 160043.02 160043.03 0.0 1.0 12.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 5done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 150000.0 12.0 0.0 5208.0 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 2.0 108.0 23.0 0.0 1.38 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 2.0 1.0 1024.0 1.0 1.0 108.0 1.38 1.38 0.0 2.0 108.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 11829.0 108.0 1.4 5891.9 0.0 150000.0 12.0 2.0 108.0  Returned cost 4097.7855
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 11829.0 10.0 12.0 0.0 0.43 1.61 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 119183.0 108.0 1.83 27299.02 0.0 11829.0 108.0 10.0 12.0  Returned cost 4411.043
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 119183.0 1.0 32.0 3.0 0.43 1.2 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 145987.0 128.0 2.26 177359.66 0.0 119183.0 108.0 1.0 32.0  Returned cost 4411.043
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 10000.0 12.0 0.0 330.0 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 2.0 108.0 23.0 0.0 1.38 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 2.0 1.0 1024.0 1.0 1.0 108.0 1.38 1.38 0.0 2.0 108.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 769.0 108.0 1.4 376.9 0.0 10000.0 12.0 2.0 108.0  Returned cost 4097.7855
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 769.0 1.0 1024.0 1.0 47.0 108.0 376.9 376.9 0.0 769.0 108.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 5585.0 224.0 5557.0 389.16 178560.95 145987.0 128.0 769.0 108.0  Returned cost 4097.7855
+
+Executed command ,script returned : 5489.8565
+ Exit value of child process : 0
+Parameters Aggregate-Hashed 1.0 4.0 3.0 224.0 178652.2 178705.9 0.0 5585.0 224.0 0.0 0.0  Returned cost 5489.8565
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 1.0 224.0 3.0 25.0 178721.25 178728.92 0.0 4.0 224.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 224.0 178721.25 178721.25 0.0 1.0 224.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 6done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 1.0 4.0 4.0 0.0 1.06 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 25.0 12.0 0.0 1.25 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 0.076
+ Exit value of child process : 0
+Parameters NestedLoopSeqScan 1.0 5.0 4.0 20.0 0.0 2.62 1.0 4.0 25.0 12.0  Returned cost 0.076
+
+Executed command ,script returned : 22.0795
+ Exit value of child process : 0
+Parameters BitmapIndexScan 5.0 5953.0 0.0 0.0 90.38 0.0 0.0 0.0 0.0 0.0  Returned cost 22.0795
+
+Executed command ,script returned : 137.627
+ Exit value of child process : 0
+Parameters BitmapHeapScan 5.0 5953.0 14960.0 0.0 12.0 0.0 91.88 673.28 5953.0 0.0 0.0 0.0  Returned cost 137.627
+
+Executed command ,script returned : 1.984
+ Exit value of child process : 0
+Parameters NestedLoopBitmapHeapScan 1.0 29764.0 4.0 91.88 735.9 0.0 5.0 4.0 5953.0 12.0  Returned cost 1.984
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 29764.0 3.0 16.0 7.0 0.43 1.7 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 91174.0 8.0 92.31 11229.46 0.0 29764.0 4.0 3.0 16.0  Returned cost 4411.043
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 91174.0 4.0 36.0 0.0 0.43 1.97 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 364734.0 32.0 92.74 49811.76 0.0 91174.0 8.0 4.0 36.0  Returned cost 4411.043
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 1337.0 4.0 198663.0 0.0 6599.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 1337.0 1.0 1024.0 1.0 48.0 4.0 6599.0 6599.0 0.0 1337.0 4.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 2410.0 24.0 6708.4 56703.58 0.0 364734.0 32.0 1337.0 4.0  Returned cost 4097.7855
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 2410.0 1.0 12.0 0.0 0.29 0.31 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 2410.0 24.0 6708.69 56855.49 0.0 2410.0 24.0 1.0 12.0  Returned cost 4411.043
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 2410.0 1.0 108.0 0.0 0.14 0.16 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 2410.0 120.0 6708.82 56939.04 0.0 2410.0 24.0 1.0 108.0  Returned cost 4411.043
+
+Executed command ,script returned : 5489.8565
+ Exit value of child process : 0
+Parameters Aggregate-Hashed 1.0 2.0 1.0 120.0 56948.66 56959.48 0.0 2410.0 120.0 0.0 0.0  Returned cost 5489.8565
+
+Executed command ,script returned : 5494.6265
+ Exit value of child process : 0
+Parameters Sort-quicksort 1.0 1.0 120.0 1.0 25.0 56961.89 56963.09 0.0 2.0 120.0 0.0 0.0  Returned cost 5494.6265
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 120.0 56961.89 56961.89 0.0 1.0 120.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 7done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 800000.0 22.0 0.0 26337.0 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 10891.0 4.0 189109.0 0.0 6599.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 10891.0 1.0 1024.0 1.0 383.0 4.0 6599.0 6599.0 0.0 10891.0 4.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 43564.0 26.0 6700.01 43356.82 0.0 800000.0 22.0 10891.0 4.0  Returned cost 4097.7855
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 43564.0 8.0 41.0 0.0 0.43 1.18 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 327686.0 47.0 6700.44 81439.0 0.0 43564.0 26.0 8.0 41.0  Returned cost 4411.043
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 327686.0 1.0 12.0 0.0 0.29 0.31 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 327686.0 39.0 6700.73 81469.25 0.0 327686.0 47.0 1.0 12.0  Returned cost 4411.043
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 327686.0 1.0 8.0 0.0 0.43 0.47 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 327686.0 35.0 6701.16 81515.21 0.0 327686.0 39.0 1.0 8.0  Returned cost 4411.043
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 25.0 108.0 0.0 1.25 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 10.146
+ Exit value of child process : 0
+Parameters Materialize 327686.0 25.0 108.0 0.0 1.38 0.0 25.0 108.0 0.0 0.0  Returned cost 10.146
+
+Executed command ,script returned : 9519.8455
+ Exit value of child process : 0
+Parameters NestedLoopMaterialize 1.0 327686.0 131.0 7864464.0 6701.16 81553.0 327686.0 35.0 25.0 108.0  Returned cost 9519.8455
+
+Executed command ,script returned : 7933.761
+ Exit value of child process : 0
+Parameters Sort-externalmerge 1.0 1230.0 131.0 2.0 24128.0 81556.16 81556.4 0.0 327686.0 131.0 0.0 0.0  Returned cost 7933.761
+
+Executed command ,script returned : 10110.525
+ Exit value of child process : 0
+Parameters Aggregate-Sorted 1.0 1.0 2.0 131.0 81556.16 81559.76 0.0 1230.0 131.0 0.0 0.0  Returned cost 10110.525
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 131.0 81556.16 81556.2 0.0 1.0 131.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 8done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 1478870.0 20.0 4522345.0 0.0 196560.19 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 22.0795
+ Exit value of child process : 0
+Parameters BitmapIndexScan 1.0 56645.0 0.0 0.0 1230.87 0.0 0.0 0.0 0.0 0.0  Returned cost 22.0795
+
+Executed command ,script returned : 137.627
+ Exit value of child process : 0
+Parameters BitmapHeapScan 1.0 56645.0 24136.0 0.0 12.0 0.0 1245.53 29750.19 56645.0 0.0 0.0 0.0  Returned cost 137.627
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 56645.0 1.0 8192.0 1.0 2434.0 12.0 29750.19 29750.19 0.0 56645.0 12.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 113599.0 20.0 30483.24 244266.23 0.0 1478870.0 20.0 56645.0 12.0  Returned cost 4097.7855
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 150000.0 152.0 0.0 5208.0 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 150000.0 8.0 4096.0 8.0 3508.0 152.0 5208.0 5208.0 0.0 150000.0 152.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 113599.0 164.0 40789.24 259557.79 0.0 113599.0 20.0 150000.0 152.0  Returned cost 4097.7855
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 25.0 108.0 0.0 1.25 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 25.0 1.0 1024.0 1.0 2.0 108.0 1.25 1.25 0.0 25.0 108.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 113599.0 260.0 40790.8 260354.69 0.0 113599.0 164.0 25.0 108.0  Returned cost 4097.7855
+
+Executed command ,script returned : 7933.761
+ Exit value of child process : 0
+Parameters Sort-externalmerge 1.0 113599.0 260.0 7.0 21624.0 272049.03 272193.64 0.0 113599.0 260.0 0.0 0.0  Returned cost 7933.761
+
+Executed command ,script returned : 10110.525
+ Exit value of child process : 0
+Parameters Aggregate-Sorted 1.0 37690.0 7.0 260.0 272049.03 274362.75 0.0 113599.0 260.0 0.0 0.0  Returned cost 10110.525
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 20.0 260.0 1.0 30.0 275901.93 276046.54 0.0 37690.0 260.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 20.0 260.0 275901.93 275901.98 0.0 20.0 260.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 9done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 1.0 4.0 24.0 0.0 1.31 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 22.0795
+ Exit value of child process : 0
+Parameters BitmapIndexScan 1.0 406.0 0.0 0.0 11.29 0.0 0.0 0.0 0.0 0.0  Returned cost 22.0795
+
+Executed command ,script returned : 137.627
+ Exit value of child process : 0
+Parameters BitmapHeapScan 1.0 406.0 192.0 0.0 12.0 0.0 11.38 253.12 406.0 0.0 0.0 0.0  Returned cost 137.627
+
+Executed command ,script returned : 1.984
+ Exit value of child process : 0
+Parameters NestedLoopBitmapHeapScan 1.0 406.0 4.0 11.38 258.43 0.0 1.0 4.0 406.0 12.0  Returned cost 1.984
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 406.0 80.0 18.0 0.0 0.42 10.24 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 32480.0 10.0 11.81 4673.7 0.0 406.0 4.0 80.0 18.0  Returned cost 4411.043
+
+Executed command ,script returned : 825.1655
+ Exit value of child process : 0
+Parameters Aggregate-Plain 1.0 1.0 10.0 4913.71 4913.72 0.0 32480.0 10.0 0.0 0.0  Returned cost 825.1655
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 1.0 4.0 24.0 0.0 1.31 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 22.0795
+ Exit value of child process : 0
+Parameters BitmapIndexScan 1.0 406.0 0.0 0.0 11.29 0.0 0.0 0.0 0.0 0.0  Returned cost 22.0795
+
+Executed command ,script returned : 137.627
+ Exit value of child process : 0
+Parameters BitmapHeapScan 1.0 406.0 192.0 0.0 12.0 0.0 11.38 253.12 406.0 0.0 0.0 0.0  Returned cost 137.627
+
+Executed command ,script returned : 1.984
+ Exit value of child process : 0
+Parameters NestedLoopBitmapHeapScan 1.0 406.0 4.0 11.38 258.43 0.0 1.0 4.0 406.0 12.0  Returned cost 1.984
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 406.0 80.0 26.0 0.0 0.42 10.24 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 32480.0 18.0 11.81 4673.7 0.0 406.0 4.0 80.0 26.0  Returned cost 4411.043
+
+Executed command ,script returned : 5494.6265
+ Exit value of child process : 0
+Parameters Sort-quicksort 1.0 32480.0 18.0 1.0 3560.0 7068.23 7148.23 0.0 32480.0 18.0 0.0 0.0  Returned cost 5494.6265
+
+Executed command ,script returned : 10110.525
+ Exit value of child process : 0
+Parameters Aggregate-Sorted 1.0 838.0 1.0 18.0 29832.0 7068.23 8268.23 32480.0 18.0 0.0 0.0  Returned cost 10110.525
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 1.0 18.0 1.0 25.0 8428.23 8508.23 0.0 838.0 18.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 18.0 13341.95 13341.95 0.0 1.0 10.0 1.0 18.0  Returned cost 5496.9985
+
+Testing query 10done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 1.0 1499917.0 20.0 0.43 66592.43 0.0 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 31225.0 19.0 5969990.0 0.0 256572.34 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 5494.6265
+ Exit value of child process : 0
+Parameters Sort-quicksort 1.0 31225.0 19.0 1.0 3452.0 258654.61 258725.04 0.0 31225.0 19.0 0.0 0.0  Returned cost 5494.6265
+
+Executed command ,script returned : 9082.89
+ Exit value of child process : 0
+Parameters MergeJoin 1.0 31225.0 27.0 258655.04 329416.77 0.0 1499917.0 20.0 31225.0 19.0  Returned cost 9082.89
+
+Executed command ,script returned : 5489.8565
+ Exit value of child process : 0
+Parameters Aggregate-Hashed 1.0 2.0 1.0 27.0 329909.8 329909.81 0.0 31225.0 27.0 0.0 0.0  Returned cost 5489.8565
+
+Executed command ,script returned : 5494.6265
+ Exit value of child process : 0
+Parameters Sort-quicksort 1.0 1.0 27.0 1.0 25.0 329909.82 329909.82 0.0 2.0 27.0 0.0 0.0  Returned cost 5494.6265
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 27.0 329909.82 329909.82 0.0 1.0 27.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 11done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 82.591
+ Exit value of child process : 0
+Parameters IndexOnlyScan 1.0 150000.0 150000.0 4.0 0.42 7617.42 0.0 0.0 0.0 0.0 0.0  Returned cost 82.591
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 1.0 1483868.0 12.0 16132.0 0.43 153214.27 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 9082.89
+ Exit value of child process : 0
+Parameters MergeJoin 1.0 1533872.0 8.0 4.72 179954.82 0.0 150000.0 4.0 1483868.0 12.0  Returned cost 9082.89
+
+Executed command ,script returned : 10110.525
+ Exit value of child process : 0
+Parameters Aggregate-Sorted 1.0 150000.0 1.0 8.0 4.72 188954.07 0.0 1533872.0 8.0 0.0 0.0  Returned cost 10110.525
+
+Executed command ,script returned : 5489.8565
+ Exit value of child process : 0
+Parameters Aggregate-Hashed 1.0 41.0 1.0 8.0 191204.07 191206.07 0.0 150000.0 8.0 0.0 0.0  Returned cost 5489.8565
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 1.0 8.0 2.0 25.0 191207.07 191207.57 0.0 41.0 8.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 8.0 191207.07 191207.07 0.0 1.0 8.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 12done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 22.0795
+ Exit value of child process : 0
+Parameters BitmapIndexScan 1.0 70245.0 0.0 0.0 1602.67 0.0 0.0 0.0 0.0 0.0  Returned cost 22.0795
+
+Executed command ,script returned : 137.627
+ Exit value of child process : 0
+Parameters BitmapHeapScan 1.0 70245.0 40196.0 0.0 20.0 0.0 1618.43 106411.1 70245.0 0.0 0.0 0.0  Returned cost 137.627
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 200000.0 25.0 0.0 6099.0 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 200000.0 4.0 8192.0 4.0 2896.0 25.0 6099.0 6099.0 0.0 200000.0 25.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 70245.0 33.0 11585.43 119746.58 0.0 70245.0 20.0 200000.0 25.0  Returned cost 4097.7855
+
+Executed command ,script returned : 825.1655
+ Exit value of child process : 0
+Parameters Aggregate-Plain 1.0 1.0 33.0 120849.5 120849.52 0.0 70245.0 33.0 0.0 0.0  Returned cost 825.1655
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 33.0 120849.5 120849.52 0.0 1.0 33.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 13done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 4.0 4.0 9996.0 0.0 355.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 799680.0 16.0 320.0 355.0 28692.0 4.0 4.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 29805.0 40.0 170195.0 0.0 9099.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 29805.0 1.0 4096.0 1.0 2161.0 40.0 9099.0 9099.0 0.0 29805.0 40.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 119175.0 44.0 9819.13 43234.14 0.0 799680.0 16.0 29805.0 40.0  Returned cost 4097.7855
+
+Executed command ,script returned : 7933.761
+ Exit value of child process : 0
+Parameters Sort-externalmerge 1.0 119175.0 44.0 3.0 6752.0 47805.85 47950.35 0.0 119175.0 44.0 0.0 0.0  Returned cost 7933.761
+
+Executed command ,script returned : 10110.525
+ Exit value of child process : 0
+Parameters Aggregate-Sorted 1.0 18275.0 3.0 44.0 47805.85 48557.58 0.0 119175.0 44.0 0.0 0.0  Returned cost 10110.525
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 1.0 44.0 4.0 25.0 48572.19 48579.5 0.0 18275.0 44.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 44.0 48572.19 48572.2 0.0 1.0 44.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 14done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 1.0 5999921.0 13.0 0.43 668615.92 0.0 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 10110.525
+ Exit value of child process : 0
+Parameters Aggregate-Sorted 1.0 199957.0 1.0 13.0 0.43 701538.23 0.0 5999921.0 13.0 0.0 0.0  Returned cost 10110.525
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 1.0 212.0 4.0 199788.0 0.42 10306.42 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 9082.89
+ Exit value of child process : 0
+Parameters MergeJoin 1.0 212.0 44.0 0.85 714277.21 0.0 199957.0 13.0 212.0 4.0  Returned cost 9082.89
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 212.0 3.0 21.0 27.0 0.43 4.11 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 544.0 8.0 0.0 1.29 715072.67 212.0 44.0 3.0 21.0  Returned cost 4411.043
+
+Executed command ,script returned : 825.1655
+ Exit value of child process : 0
+Parameters Aggregate-Plain 1.0 1.0 8.0 715077.37 715077.38 0.0 544.0 8.0 0.0 0.0  Returned cost 825.1655
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 8.0 715077.37 715077.38 0.0 1.0 8.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 15done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 6001215.0 13.0 0.0 181557.15 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 1.0 1201687.0 24.0 0.43 66592.43 0.0 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 1.0 6001215.0 13.0 0.43 277394.66 0.0 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 10110.525
+ Exit value of child process : 0
+Parameters Aggregate-Sorted 1.0 9.0 1.0 13.0 1499991.0 0.43 312940.94 6001215.0 13.0 0.0 0.0  Returned cost 10110.525
+
+Executed command ,script returned : 10.146
+ Exit value of child process : 0
+Parameters Materialize 1.0 9.0 8.0 0.43 317557.77 0.0 9.0 13.0 0.0 0.0  Returned cost 10.146
+
+Executed command ,script returned : 9082.89
+ Exit value of child process : 0
+Parameters MergeJoin 1.0 9.0 32.0 0.86 392517.04 0.0 1201687.0 24.0 9.0 8.0  Returned cost 9082.89
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 150000.0 23.0 0.0 5208.0 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 150000.0 4.0 8192.0 4.0 2066.0 23.0 5208.0 5208.0 0.0 150000.0 23.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 9.0 47.0 7962.86 425674.54 0.0 9.0 32.0 150000.0 23.0  Returned cost 4097.7855
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 9.0 16.0 8192.0 16.0 1.0 47.0 425674.54 425674.54 0.0 9.0 47.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 63.0 44.0 441641.54 755910.36 0.0 6001215.0 13.0 9.0 47.0  Returned cost 4097.7855
+
+Executed command ,script returned : 5494.6265
+ Exit value of child process : 0
+Parameters Sort-quicksort 1.0 63.0 44.0 5.0 30.0 1263339.13 1270840.65 0.0 63.0 44.0 0.0 0.0  Returned cost 5494.6265
+
+Executed command ,script returned : 10110.525
+ Exit value of child process : 0
+Parameters Aggregate-Sorted 1.0 9.0 5.0 44.0 1263339.13 1353357.37 0.0 63.0 44.0 0.0 0.0  Returned cost 10110.525
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 9.0 44.0 1263339.13 1263342.13 0.0 9.0 44.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 16done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 516.0 30.0 199484.0 0.0 12599.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 516.0 0.0 25.0 30.0 0.43 123.7 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 109.0 12.0 0.43 73465.67 0.0 516.0 30.0 0.0 25.0  Returned cost 4411.043
+
+Executed command ,script returned : 825.1655
+ Exit value of child process : 0
+Parameters Aggregate-Plain 1.0 1.0 12.0 73466.52 73466.53 0.0 109.0 12.0 0.0 0.0  Returned cost 825.1655
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 12.0 73466.52 73466.53 0.0 1.0 12.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 17done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 10000.0 63.0 0.0 330.0 0.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 1.0 4.0 24.0 0.0 1.31 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 1.0 1.0 1024.0 1.0 1.0 4.0 1.31 1.31 0.0 1.0 4.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 393.0 55.0 1.32 372.82 0.0 10000.0 63.0 1.0 4.0  Returned cost 4097.7855
+
+Executed command ,script returned : 22.0795
+ Exit value of child process : 0
+Parameters BitmapIndexScan 1.0 909455.0 0.0 0.0 22745.14 0.0 0.0 0.0 0.0 0.0  Returned cost 22.0795
+
+Executed command ,script returned : 137.627
+ Exit value of child process : 0
+Parameters BitmapHeapScan 1.0 909455.0 32083.0 79352.0 21.0 3244260.0 22968.96 157943.03 909455.0 0.0 0.0 0.0  Returned cost 137.627
+
+Executed command ,script returned : 7933.761
+ Exit value of child process : 0
+Parameters Sort-externalmerge 1.0 909099.0 21.0 2.0 27472.0 264810.36 267048.54 0.0 909455.0 21.0 0.0 0.0  Returned cost 7933.761
+
+Executed command ,script returned : 10110.525
+ Exit value of child process : 0
+Parameters Aggregate-Sorted 1.0 543008.0 2.0 21.0 264810.36 275105.99 0.0 909099.0 21.0 0.0 0.0  Returned cost 10110.525
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 2106.0 4.0 197894.0 0.0 6599.0 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 2106.0 4.0 20.0 0.0 0.42 7.04 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 8424.0 24.0 0.42 20895.9 0.0 2106.0 4.0 4.0 20.0  Returned cost 4411.043
+
+Executed command ,script returned : 5494.6265
+ Exit value of child process : 0
+Parameters Sort-quicksort 1.0 8424.0 24.0 2.0 1108.0 21414.1 21434.08 0.0 8424.0 24.0 0.0 0.0  Returned cost 5494.6265
+
+Executed command ,script returned : 9082.89
+ Exit value of child process : 0
+Parameters MergeJoin 1.0 5767.0 16.0 10.0 286224.46 297922.98 543008.0 21.0 8424.0 24.0  Returned cost 9082.89
+
+Executed command ,script returned : 10.146
+ Exit value of child process : 0
+Parameters Materialize 393.0 4288.0 16.0 286224.46 297923.01 0.0 5767.0 16.0 0.0 0.0  Returned cost 10.146
+
+Executed command ,script returned : 9519.8455
+ Exit value of child process : 0
+Parameters NestedLoopMaterialize 1.0 186.0 51.0 1685036.0 286225.78 298331.82 393.0 55.0 4288.0 16.0  Returned cost 9519.8455
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 1.0 51.0 1.0 25.0 298332.82 298333.32 0.0 186.0 51.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 1.0 51.0 298332.82 298332.82 0.0 1.0 51.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 18done
+Executed command ,script returned :  Exit value of child process : 1
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 3793296.0 16.0 2207919.0 0.0 196560.19 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 89.2275
+ Exit value of child process : 0
+Parameters SeqScan 1.0 1.0 4.0 24.0 0.0 1.31 0.0 0.0 0.0 0.0  Returned cost 89.2275
+
+Executed command ,script returned : 22.0795
+ Exit value of child process : 0
+Parameters BitmapIndexScan 1.0 402.0 0.0 0.0 11.29 0.0 0.0 0.0 0.0 0.0  Returned cost 22.0795
+
+Executed command ,script returned : 137.627
+ Exit value of child process : 0
+Parameters BitmapHeapScan 1.0 402.0 194.0 0.0 38.0 0.0 11.38 253.12 402.0 0.0 0.0 0.0  Returned cost 137.627
+
+Executed command ,script returned : 1.984
+ Exit value of child process : 0
+Parameters NestedLoopBitmapHeapScan 1.0 402.0 30.0 11.38 258.43 0.0 1.0 4.0 402.0 38.0  Returned cost 1.984
+
+Executed command ,script returned : 121.823
+ Exit value of child process : 0
+Parameters Hash 1.0 402.0 1.0 1024.0 1.0 26.0 30.0 258.43 258.43 0.0 402.0 30.0 0.0 0.0  Returned cost 121.823
+
+Executed command ,script returned : 4097.7855
+ Exit value of child process : 0
+Parameters HashJoin 1.0 151892.0 42.0 263.43 205122.51 0.0 3793296.0 16.0 402.0 30.0  Returned cost 4097.7855
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 151892.0 0.0 4.0 1.0 0.43 0.51 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 73268.0 46.0 263.86 246862.37 0.0 151892.0 42.0 0.0 4.0  Returned cost 4411.043
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 73268.0 1.0 16.0 0.0 0.43 1.07 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 70563.0 42.0 0.0 264.29 296341.36 73268.0 46.0 1.0 16.0  Returned cost 4411.043
+
+Executed command ,script returned : 0.115
+ Exit value of child process : 0
+Parameters IndexScan 70563.0 1.0 16.0 1.0 0.43 1.07 0.0 0.0 0.0 0.0  Returned cost 0.115
+
+Executed command ,script returned : 4411.043
+ Exit value of child process : 0
+Parameters NestedLoopIndexScan 1.0 3981.0 26.0 264.72 296343.11 0.0 70563.0 42.0 1.0 16.0  Returned cost 4411.043
+
+Executed command ,script returned : 5489.8565
+ Exit value of child process : 0
+Parameters Aggregate-Hashed 1.0 402.0 1.0 26.0 296343.12 296343.13 0.0 3981.0 26.0 0.0 0.0  Returned cost 5489.8565
+
+Executed command ,script returned : 4702.305
+ Exit value of child process : 0
+Parameters Sort-top-Nheapsort 1.0 100.0 26.0 2.0 33.0 296343.14 296343.14 0.0 402.0 26.0 0.0 0.0  Returned cost 4702.305
+
+Executed command ,script returned : 5496.9985
+ Exit value of child process : 0
+Parameters Limit 1.0 100.0 26.0 296343.14 296343.14 0.0 100.0 26.0 0.0 0.0  Returned cost 5496.9985
+
+Testing query 19done
+
+-------------------------------
+Results Actual vs Optimizers
+-------------------------------
+Total queries: 22
+Total trained queries: 21
+Total tested queries: 20/21
+Mean relative error: 38.44121615262632
+Minimum relative error: 0.573740478933144
+Maximum relative error: 118.55307262569832
+
+-------------------------------
+Results Actual vs Current model
+-------------------------------
+Total queries: 22
+Total trained queries: 21
+Total tested queries: 20/21
+Mean relative error: 5.861974840370295
+Minimum relative error: 0.32117947997589563
+Maximum relative error: 23.93150487727039
+Optimizer model : Individual queries performance
+Query 0: 8.4449896164765
+Query 1: 0.573740478933144
+Query 2: 115.72216557356276
+Query 3: 118.55307262569832
+Query 4: 12.224218224365579
+Query 5: 72.9220922826224
+Query 6: 15.426780243993704
+Query 7: 8.679789063730697
+Query 8: 1.700628978509694
+Query 9: 32.76222678826855
+Query 10: 8.256372365372073
+Query 11: 54.59719706791234
+Query 12: 21.69949859943811
+Query 13: 115.84399113973863
+Query 14: 6.67210797769898
+Query 15: 15.224671915343512
+Query 16: 59.59659877976247
+Query 17: 34.14364753470999
+Query 18: 33.22981408933698
+Query 19: 32.550719707051904
+Current model : Individual queries performance
+Query 0: 0.6542722412197708
+Query 1: 0.7050752975228455
+Query 2: 10.359792105620825
+Query 3: 20.064941663745607
+Query 4: 11.096614212825568
+Query 5: 1.991594315626208
+Query 6: 2.4475786983136114
+Query 7: 5.585669833282382
+Query 8: 0.681350370782575
+Query 9: 4.055585393530254
+Query 10: 23.93150487727039
+Query 11: 4.247845146108085
+Query 12: 3.1500178372047887
+Query 13: 9.425316234176208
+Query 14: 4.168349968117257
+Query 15: 0.32117947997589563
+Query 16: 1.3459168569290687
+Query 17: 4.174233806465932
+Query 18: 6.043848467297199
+Query 19: 2.788810001391422
+430915.59 45623.723
+27863.09 65366.493
+355543.42 3046.066
+114939.4 961.409
+42179.94 3189.598
+160043.03 2165.023
+178721.25 10879.871
+56961.89 5884.621
+81556.2 30198.965
+275901.98 8171.913
+13341.95 1441.38
+329909.82 5933.929
+191207.07 8423.405
+120849.52 1034.281
+48572.2 6331.011
+715077.38 44073.457
+1263342.13 20848.4
+73466.53 2090.464
+298332.82 8715.584
+296343.14 8832.691
